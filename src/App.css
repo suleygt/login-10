@@ -167,6 +167,7 @@ position: relative;
 }
 
 .button {
+  content: '';
   margin-left: 243px;
   height: 50px;
   width: 140px;
@@ -176,11 +177,12 @@ position: relative;
   color: #000;
   font-weight: bold;
   font-size: 22px;
-  position: absolute;
+  
   
 }
 
 .buton {
+  content: '';
   height: 50px;
   width: 139px;
   margin-top: 20px;
@@ -191,7 +193,7 @@ position: relative;
   rgba(16, 31, 32, 1);
   font-weight: bold;
   font-size: 22px;
-  position: absolute;
+
 }
 @media (max-width: 768px) {
   .modal-outer {
